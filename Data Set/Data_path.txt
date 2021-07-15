@@ -1,0 +1,16 @@
+Null Value Remove+Encoding(Label En + One Hot + Frequency)+Outlier Detection(DBSCAN)+Heat Map / Feature Selection
+
+#Filter Method
+1. Null Value Remove+Encoding(Label En)+Outlier Detection(DBSCAN)+Heat Map (DataSet_1)
+2. Null Value Remove+Encoding(Label En)+Outlier Detection(DBSCAN)+Feature Selection (ChiSquare) (DataSet_2)
+2. Null Value Remove+Encoding(Label En)+Outlier Detection(DBSCAN)+Feature Selection (Variance Threshold) (DataSet_7)
+
+#Wrapper Method
+
+3. Null Value Remove+Encoding(Label En)+Outlier Detection(DBSCAN)+Feature Selection (Recursive Feature Elemination) (DataSet_3)
+4. Null Value Remove+Encoding(Label En)+Outlier Detection(DBSCAN)+Feature Selection (Sequential Forward Selection) (DataSet_4)
+
+#Embedded
+
+5. Null Value Remove+Encoding(Label En)+Outlier Detection(DBSCAN)+Feature Selection (Lasso) (DataSet_5)
+6. Null Value Remove+Encoding(Label En)+Outlier Detection(DBSCAN)+Feature Selection (Ridge Regression) (DataSet_6)
